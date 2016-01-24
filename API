@@ -1,0 +1,10 @@
+API
+Every request sends user's authorization data (id bundled with app)
+
+RetrieveById(id) --> {`record model`}
+	id: db id of item to get
+
+RetrieveByPage(num,[type,page]) --> {[records..]}
+Store(type,data,parentNode)
+
+Edit()

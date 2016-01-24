@@ -1,0 +1,70 @@
+body{
+	padding-top: 70px;
+}
+img{
+	max-width: 100%;
+}
+.mobile-container{
+	max-width: 360px;
+    margin: auto;
+    margin-top: 60px;
+}
+.navbar-default{
+	background: black;
+	color: white;
+}
+.navbar-brand > img {
+	/*border-bottom: 1px solid black;
+    padding-bottom: 2px;*/
+    height: 100%;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+	line-height: 29px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+	background: #1B1B1B
+}
+/* LISTING PAGE */
+.places-listing #items .mix{
+	display: none;
+	position: relative;
+    width: 100%;
+    border-bottom: 2px dashed rgba(0, 0, 255, 0.08);
+}
+.places-listing .mix .content{
+	display: none;
+}
+.places-listing .mix .close{
+	display: none;
+}
+.places-listing .mix.toggled{
+    box-shadow: 0 0 10px;
+    border-radius: 4px;
+}
+.places-listing .mix.toggled .content{
+	display: block;
+}
+.places-listing .mix.toggled .close{
+	display: block;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+.places-listing .mix .toggle{
+	float:right;
+}
+.places-listing .mix.toggled .toggle{
+	display: none;
+}
+.places-listing .mix > h4 {
+	margin-top:8px;
+	margin-bottom:8px;
+	cursor: pointer;
+}
+.places-listing .mix > h4 .toggle {
+	opacity: 0.7;
+}
+.places-listing .mix > h4:hover .toggle {
+	opacity: 1;
+}

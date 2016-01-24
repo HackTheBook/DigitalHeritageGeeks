@@ -1,0 +1,27 @@
+Content sections:
+
+- Title
+- Image(s)
+- Meta-data section (location, operation hours, entrance fee etc)
+- Description / full text
+- Europeana(with.images.ntua) API section [Current related stuff] (selected searches/collections/exhibitions from API)
+- Twitter section(tweets from related account / handle)
+- Video section
+- Audio section
+- Airbnb section
+
+Presentation ideas:
+- Give out flaneurs to the teams/judges
+- Slides depicting specific use-cases (3-4 slides/case acted out by us)
+-- Case #1: Browse app's list mode
+--- Demonstrate Filtering
+--- Open up a record, show content & meta data
+--- Comments, 
+-- Case #2:  Using app while reading the magazine flow
+--- Step 1: find a page
+--- Step 2: type page num to keypad
+--- Step 3: check mobile app (mock page on web app)
+--- Step 4: interact with the page
+- Challenges/Issues: (show slides mocking them if possible)
+-- Establish Arduino - Mobile communication (serve app on mobile natively)
+-- Multi-language support

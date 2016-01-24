@@ -1,0 +1,35 @@
+#items .mix{
+	display: none;
+	position: relative;
+    width: 100%;
+    border-bottom: 2px dashed rgba(0, 0, 255, 0.08);
+}
+.mix .content{
+	display: none;
+}
+.mix .close{
+	display: none;
+}
+.mix.toggled{
+    box-shadow: 0 0 10px;
+    border-radius: 4px;
+}
+.mix.toggled .content{
+	display: block;
+}
+.mix.toggled .close{
+	display: block;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+}
+.mix .toggle{
+	float:right;
+}
+.mix.toggled .toggle{
+	display: none;
+}
+.mix > h3 {
+	margin-top:8px;
+	margin-bottom:8px;
+}
